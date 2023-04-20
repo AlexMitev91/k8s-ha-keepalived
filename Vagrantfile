@@ -45,7 +45,7 @@ end
     config.vm.define "worker#{i}" do |node|
       node.vm.hostname  = "worker-#{i}"
       node.vm.provision "shell", path: "./scripts/common.sh", env: {"KUBE_VERSION" => KUBE_VERSION}
-#      node.vm.provision "shell", path: "./scripts/worker.sh"
+      node.vm.provision "shell", path: "./scripts/worker.sh"
       node.vm.network "private_network", ip: "192.168.56.#{i+20}"
       node.vm.provider "virtualbox" do |pmv|
         pmv.memory = 1024
