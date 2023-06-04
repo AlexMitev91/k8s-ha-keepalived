@@ -1,3 +1,5 @@
+#!/bin/bash
+
 set -x
 
 #Pre-pull control plane images

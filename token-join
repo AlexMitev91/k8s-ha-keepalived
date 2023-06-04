@@ -1,1 +1,1 @@
-kubeadm join 192.168.56.10:9090 --token t0k8cx.8rpcnw7pbezqss0m --discovery-token-ca-cert-hash sha256:0ac13fe5c5f3114d87b1f0d3ed51892fab0d4b43c55883f0d42b76827e0be04d 
+kubeadm join 192.168.56.10:9090 --token a0ikpz.lz9joteyhh2s6upt --discovery-token-ca-cert-hash sha256:4e7e8aa37ede1cc8efdcfb0f34dce34ba7b15726a8eeae11d208ca237d66ac1d 
