@@ -17,3 +17,7 @@ All aditional Master nodes need to be manually joined to the cluster at the mome
         --control-plane --certificate-key {MASTER CERT KEY} \
         --apiserver-advertise-address="THE IP ADDRESS OF THE VM TO JOIN"
 ```
+
+The project is based on the Highly Available Clusters with kubeadm (Stacked etcd) Kubernetes Documentation guidelines: 
+
+https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/
