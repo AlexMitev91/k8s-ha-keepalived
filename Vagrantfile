@@ -3,8 +3,8 @@
 
 KUBE_VERSION="1.26.1"
 MASTER_COUNT=1
-MASTER_JOIN=1
-WORKER_COUNT=1
+MASTER_JOIN=2
+WORKER_COUNT=2
 
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/jammy64"
